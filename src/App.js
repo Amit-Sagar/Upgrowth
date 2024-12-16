@@ -1,12 +1,13 @@
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import About from "./pages/About";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="text-3xl text-center font-bold underline">
+    <div className="w-full flex flex-col justify-center items-center">
       <Header />
-      <About/>
+      <HomePage/>
       <Footer />
     </div>
   );
