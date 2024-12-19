@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      service: "url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/bg.jpg')",
+    },
     extend: {},
   },
   plugins: [],
