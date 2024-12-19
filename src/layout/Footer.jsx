@@ -1,8 +1,9 @@
 import React from "react";
 import { footerData } from "../components/data";
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 w-[95%] rounded-lg mt-10">
+    <footer className="bg-gray-900 text-gray-300 py-10 mt-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
         {footerData.map((section, index) => (
           <div key={index}>

@@ -1,16 +1,11 @@
-import Footer from "./layout/Footer";
-import Header from "./layout/Header";
-import About from "./pages/About";
-import HomePage from "./pages/HomePage";
+import AllRoutes from "./Routes";
+import Layout from "./layout";
 
 function App() {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
-      <Header />
-      {/* <HomePage/> */}
-      <About/>
-      <Footer />
-    </div>
+    <Layout>
+      <AllRoutes />
+    </Layout>
   );
 }
 
