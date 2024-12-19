@@ -6,13 +6,13 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
         {footerData.map((section, index) => (
           <div key={index}>
-            <h3 className="text-lg font-semibold text-white mb-4">{section.title}</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              {section.title}
+            </h3>
             <ul className="space-y-2">
               {section.links.map((link, linkIndex) => (
                 <li key={linkIndex}>
-                  <a className="hover:text-pink-300 cursor-pointer">
-                    {link}
-                  </a>
+                  <a className="hover:text-pink-300 cursor-pointer">{link}</a>
                 </li>
               ))}
             </ul>

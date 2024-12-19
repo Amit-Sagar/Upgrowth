@@ -9,18 +9,21 @@ const HomePage = () => {
     <div className="pt-[120px] flex flex-col justify-center items-center gap-10">
       <HeroCard />
 
-      <div className="bg-black w-[95%] py-10 rounded-lg">
-        <p className="text-center text-xl text-white">
-          Companies We've Helped Grow
-        </p>
-        <div className="flex justify-center items-center gap-24 pt-5">
+      <div className="bg-black/90 w-[95%] rounded-lg py-4">
+        <div className="flex justify-center items-center gap-24">
           {comImg.map((item, index) => {
             return (
-              <img src={item} className=" cursor-pointer" key={index} alt="" />
+              <img
+                src={item}
+                className=" cursor-pointer hover:scale-110"
+                key={index}
+                alt=""
+              />
             );
           })}
         </div>
       </div>
+      
       <Services />
       <TextList />
     </div>
