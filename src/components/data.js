@@ -2,18 +2,21 @@ export const user = [
   {
     img: "https://randomuser.me/api/portraits/women/48.jpg",
     head: "We can count on them to bring new ideas to the table consistently",
+    text:"Single Grain has been key in helping us generate B2B engagement across digital channels. We can count on them to bring new ideas to the table consistently and that's why we love working with them.",
     name: "Jacqueline Foster",
     position: "Demand Generation Marketing, Lever.co",
   },
   {
     img: "https://randomuser.me/api/portraits/women/81.jpg",
     head: "Single Grain enables us to increase our impact without increasing our headcount",
+    text:"We really lean on Single Grain as an extension of our team, which enables us to increase our impact without increasing our headcount.",
     name: "Kim Cooper",
     position: "Director of Marketing, Amazon Alexa",
   },
   {
     img: "https://randomuser.me/api/portraits/men/43.jpg",
     head: "Their expertise has helped Nextiva grow its brand and overall business",
+    text:"The Single Grain team has been instrumental in providing us with forward-thinking, growth-impacting marketing support. Their expertise has helped Nextiva grow its brand and overall business.",
     name: "Yaniv Masjedi",
     position: "CMO, Nextiva",
   },
@@ -29,34 +32,24 @@ export const comImg = [
 
 export const services = [
   {
-    img: "https://static.wixstatic.com/media/c837a6_f0c70435440f49d4a599b000d3ef510b~mv2.png/v1/fill/w_300,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201%20copy%207.png",
+    img: "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/icon-1.svg",
     head: "Revenue-Led SEO",
     des: "We go beyond basic search optimization to bring you SEO strategies that prioritize growth. Our methods are tailored to attract high-value leads, boost your ranking, and drive meaningful traffic that converts into revenue. We achieve steady growth in organic and high-intent traffic for your business.",
   },
   {
-    img: "https://static.wixstatic.com/media/c837a6_1045be3adbb14173aebfae46c5c230ee~mv2.png/v1/fill/w_243,h_243,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201.png",
+    img: "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/icon-2.svg",
     head: "Conversion-Focused Paid Ads",
     des: "We craft precise Google & Meta campaigns to reach your ideal audience, driving qualified traffic and conversions. Every click is backed by intent-driven data, ensuring that your ad spend translates to business growth.",
   },
   {
-    img: "https://static.wixstatic.com/media/c837a6_bbc8ce93eca1474eb713311e81aa6c0b~mv2.png/v1/fill/w_249,h_249,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201%20copy.png",
+    img: "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/icon-3.svg",
     head: "Full-Funnel Content Marketing",
     des: "Our content marketing strategies go beyond blog posts. We map content to your customers' journey, helping build trust, drive traffic, and nurture conversions and brand recall among your customers.",
   },
   {
-    img: "https://static.wixstatic.com/media/c837a6_10f671dd6f9c48cfa54a9f3941f8c757~mv2.png/v1/fill/w_316,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201%20copy%205.png",
+    img: "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/icon-4.svg",
     head: "App Store Optimisation (ASO)",
     des: "Our App Store Optimisation service is designed to increase your app’s visibility, ranking, and downloads on both iOS and Android platforms. We focus on keyword optimisation, compelling descriptions, and a seamless user experience to attract and retain users.",
-  },
-  {
-    img: "https://static.wixstatic.com/media/c837a6_c1a0b36ac9cd4978a39ab87c8f78397c~mv2.png/v1/fill/w_245,h_245,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201%20copy%202.png",
-    head: "Data Analytics for Performance-Driven Insights",
-    des: "Our Data Analytics service delivers a clear picture of your marketing performance, helping you make informed, outcome-focused decisions. We analyze campaign data and performance metrics to fuel continuous improvement and ensure every strategy drives measurable growth.",
-  },
-  {
-    img: "https://static.wixstatic.com/media/c837a6_3db75a7a30a44c8b971a94e4de575680~mv2.png/v1/fill/w_265,h_265,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201%20copy%206.png",
-    head: "Product Improvement Insights",
-    des: "Our Product Improvement service leverages data to provide actionable recommendations, ensuring your product continues to meet and exceed user expectations. By analyzing user behavior and feedback, we help refine features, address pain points, and increase product adoption.",
   },
 ];
 
@@ -196,3 +189,77 @@ export const testimonials = [
     position: "CMO, Nextiva",
   },
 ];
+
+export const leanMoreData = [
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/klassy-network-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/klassy_network_logo-white.png",
+    text:"+1023% Revenue Lift from Paid Media in Just Four Months"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/fum.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/fum-logo.png",
+    text:"75% Lift in Add-to-Cart Rate"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/superplastic.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/superplasticlogo-white.png",
+    text:"2x ROAS Increase Across All Channels"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/alessa-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/alessa.svg",
+    text:"Increasing Organic Lead Flow by 600+% for Alessa using AI-Generated Content"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/winedeals-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/wine-deals-logo-dark-bg.svg",
+    text:"Click-Through Rate Increased by 325%"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/Gocious.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/gocious-logo.png",
+    text:"MQL Driven by LinkedIn Ads Increased By 193%"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/sg-internal.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/sg-logo.svg",
+    text:"300% ROI In Just 9 Months"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/ibc-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/ibc-logo.png",
+    text:"Launching a Successful Lead Gen Strategy for Interchain’s Annual Hackathon Event"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/klassy-network-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/klassy_network_logo-white.png",
+    text:"$47k in Profit With a Single Email Campaign"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/schumacher-homes.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/schumacher-homes-logo.svg",
+    text:"Growing Brand Awareness with Meta Campaign"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/winedeals-bg.png",
+    img:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/case-studies/wine-deals-logo-dark-bg.svg",
+    text:"268% Increase in Organic Traffic With AI-Driven SEO Strategy"
+  },
+  {
+    bgImg:"https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/bg-grain-opacity-25.png",
+    img:"",
+    text:""
+  }
+]
+
+export const companyImg = [
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/amazon@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/uber@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/lyft@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/salesforce@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/airbnb@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/15five@2x.png",
+  "https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/partners/crunchbase@2x.png"
+
+]
