@@ -7,6 +7,8 @@ import LearnMoreSection from "../components/LearnMoreSection";
 import CompanyImg from "../components/CompanyImg";
 import Company from "../components/Company";
 import WeRankSection from "../components/WeRankSection";
+import UserSection from "../components/UserSection";
+import GrowingSection from "../components/GrowingSection";
 
 const HomePage = () => {
   return (
@@ -14,11 +16,12 @@ const HomePage = () => {
       <HeroCard />
       <CompanyImg/>
       <LearnMoreSection/>
-      
       <Services />
       <WeRankSection/>
       <TextList />
+      <UserSection/>
       <Company/>
+      <GrowingSection/>
     </div>
   );
 };

@@ -30,7 +30,7 @@ const Services = () => {
         })}
       </div>
       <button className="text-white bg-[rgb(221,104,54)] px-14 py-3 font-bold flex justify-center items-center gap-3 hover:opacity-80 duration-100 mt-10">
-        WORK WITH US{" "}
+        WORK WITH US
         <img
           src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg"
           alt=""
