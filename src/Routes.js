@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    BrowserRouter as Router,
     Routes,
     Route,
     Navigate,
@@ -20,19 +19,27 @@ const routes = [
         element: <About />,
         isPrivate: false,
     },
+    {
+        path: "/services",
+        element: <About />,
+        isPrivate: false,
+    },
+    {
+        path: "/industries",
+        element: <About />,
+        isPrivate: false,
+    },
 ]
 
 
 const AllRoutes = () => {
     return (
-        <Router>
-            <Routes>
-                {routes.map(({ path, element }) => (
-                    <Route path={path} element={element} key={path} />
-                ))}
-                <Route exact path="*" element={<Navigate to="/error/404" />} />
-            </Routes>
-        </Router>
+        <Routes>
+            {routes.map(({ path, element }) => (
+                <Route path={path} element={element} key={path} />
+            ))}
+            <Route exact path="*" element={<Navigate to="/error/404" />} />
+        </Routes>
     )
 }
 

@@ -5,9 +5,11 @@ const Services = () => {
   const text =
     "At Single Grain, our team of highly specialized marketing experts — ecommerce, pay-per-click, search engine optimization, lead generation, conversion rate optimization, performance marketing, and more — are here to ensure that you get the results you want. We focus on data that truly matters to inform our every conversation and decision with constant testing, tweaking, and optimizing. We make sure every opportunity is realized.";
   return (
-    <div className="bg-[url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/services/bg.jpg')] w-[95%] py-10 text-white text-center font-semibold flex flex-col justify-center items-center gap-10 ">
-      <p className="text-6xl">Our Services</p>
-      <p className="px-[12%] text-gray-400 text-xl">{text}</p>
+    <div className="bg-service bg-no-repeat  w-[96%] py-10 text-white text-center font-semibold rounded-lg">
+      <div className="text-6xl">Our Services</div>
+      <div className="mx-auto my-10">
+        <p className="px-[12%] text-gray-400 text-xl">{text}</p>
+      </div>
       <div className="flex justify-center items-center flex-wrap gap-5 rounded-lg">
         {services.map((item, index) => {
           return (
@@ -41,4 +43,3 @@ const Services = () => {
 };
 
 export default Services;
-
