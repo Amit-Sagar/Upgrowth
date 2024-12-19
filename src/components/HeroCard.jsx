@@ -24,11 +24,11 @@ const HeroCard = () => {
   return (
     <div className='w-[95%] flex justify-center items-center gap-28 h-[600px] bg-[url("https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/hero/bg.jpg")] bg-cover bg-center rounded-lg'>
       <div className="w-[40%] text-white">
-        <h1 className="text-6xl font-bold leading-tight">
-          <span className="bg-black">Transforming Your Marketing</span> into
+        <h1 className="text-5xl font-bold leading-tight tracking-wide">
+          <span className="bg-black px-1">Transforming Your Marketing</span> into
           Measurable Growth
         </h1>
-        <p className="text-xl py-5">
+        <p className="text-xl py-5 tracking-widest">
           At UpGrowth Marketing, we craft strategies that go beyond clicks and
           impressions. We partner with you to drive revenue-focused,
           outcome-driven growth that elevates your business. Discover a
