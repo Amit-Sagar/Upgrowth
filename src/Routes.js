@@ -20,11 +20,6 @@ const routes = [
         element: <About />,
         isPrivate: false,
     },
-    // {
-    //     path: "/login",
-    //     element: <Login />,
-    //     isPrivate: false,
-    // },
 ]
 
 
