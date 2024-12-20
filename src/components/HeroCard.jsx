@@ -1,6 +1,6 @@
 import React, { use, useState } from "react";
-import { FaAnglesRight } from "react-icons/fa6";
-import { FaAnglesLeft } from "react-icons/fa6";
+// import { FaAnglesRight } from "react-icons/fa6";
+// import { FaAnglesLeft } from "react-icons/fa6";
 import { user } from "../components/data";
 
 const HeroCard = () => {

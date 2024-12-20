@@ -7,7 +7,7 @@ const TextList = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="flex justify-center items-center space-y-4 px-20 bg-[url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/hero/bg.jpg')] w-[95%] py-10 rounded-xl">
+    <div className="flex justify-center items-center space-y-4 px-20 bg-[url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/hero/bg.jpg')] w-[95%] py-20 rounded-xl mx-auto">
       <div className="flex flex-col items-start space-y-2 w-[60%] text-3xl">
         <p className="text-white text-6xl font-bold mb-10">
           Our Growth Methodology
