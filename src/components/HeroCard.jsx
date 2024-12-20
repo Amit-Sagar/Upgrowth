@@ -1,6 +1,4 @@
 import React, { use, useState } from "react";
-// import { FaAnglesRight } from "react-icons/fa6";
-// import { FaAnglesLeft } from "react-icons/fa6";
 import { user } from "../components/data";
 
 const HeroCard = () => {
@@ -25,7 +23,7 @@ const HeroCard = () => {
     <div className="w-[95%] flex justify-center items-center gap-28 h-[600px] bg-heroImg bg-cover bg-center rounded-lg">
       <div className="w-[40%] text-white">
         <h1 className="text-5xl font-bold leading-tight tracking-wide">
-          <span className="bg-black px-1">Transforming Your Marketing</span>{" "}
+          <span className="bg-black px-1">Transforming Your Marketing</span>
           into Measurable Growth
         </h1>
         <p className="text-xl py-5 tracking-widest">
