@@ -5,7 +5,7 @@ const options = [
   { id: 1, label: "SERVICES", route: "/services" },
   { id: 2, label: "INDUSTRIES", route: "/industries" },
   { id: 3, label: "ABOUT", route: "/about" },
-  { id: 4, label: "CONTACT US", route: "/contact-us" },
+  // { id: 4, label: "CONTACT US", route: "/contact-us" },
 ];
 
 const Header = () => {

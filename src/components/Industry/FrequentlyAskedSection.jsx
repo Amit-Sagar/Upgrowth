@@ -36,11 +36,12 @@ const FrequentlyAskedSection = () => {
     },
   ];
   return (
-    <div className="w-[70%] mx-auto mt-10">
-      <h1 className="text-4xl text-center font-bold mb-4">
+    <div className="w-[70%] mx-auto mt-10 mb-24">
+      <h1 className="text-4xl text-center font-bold mb-10">
         Frequently Asked Questions
       </h1>
       <Accordion items={list} />
+      <p className="text-center mt-10">If you were unable to find the answer you've been looking for, do not hesitate to get in touch and ask us directly.</p>
     </div>
   );
 };

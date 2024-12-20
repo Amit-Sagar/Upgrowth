@@ -7,7 +7,7 @@ import CompanyImg from "../components/CompanyImg";
 import Company from "../components/Company";
 import WeRankSection from "../components/WeRankSection";
 import UserSection from "../components/UserSection";
-import GrowingSection from "../components/GrowingSection";
+import GrowingSection from "../components/common/GrowingSection";
 
 const HomePage = () => {
   return (
@@ -20,7 +20,12 @@ const HomePage = () => {
       <TextList />
       <UserSection />
       <Company />
-      <GrowingSection />
+      <div className="w-full relative flex justify-center items-center mt-28 h-[400px]">
+        <GrowingSection
+          btnText="WORK WITH US"
+          classes="absolute -bottom-20 w-[80%]"
+        />
+      </div>
     </div>
   );
 };
