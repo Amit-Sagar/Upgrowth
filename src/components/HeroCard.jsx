@@ -36,20 +36,21 @@ const HeroCard = () => {
           scale your impact.
         </p>
         <button className="flex justify-center items-center gap-3 font-bold px-16 py-4 mt-5 transition duration-200 border border-black bg-[rgb(42,42,42)] hover:bg-[rgb(67,67,67)]">
-          WORK WITH US <FaAnglesRight />{" "}
+          WORK WITH US 
+          <img src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg" alt="" />
         </button>
       </div>
       <div className="w-[40%] text-white text-center">
-        <div className="flex justify-center items-center gap-28 text-3xl">
+        <div className="flex justify-center items-center gap-36 text-3xl">
           <span onClick={PreUser} className=" cursor-pointer">
-            <FaAnglesLeft />
+            <img className=" rotate-180 w-5" src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg" alt="" />
           </span>
           <img className=" rounded-[50%]" src={user[userIndex].img} />
           <span onClick={NextUser} className=" cursor-pointer">
-            <FaAnglesRight />
+            <img className="w-5" src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg" alt="" />
           </span>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center pt-10">
           <p className="text-4xl font-bold">"{user[userIndex].head}"</p>
           <p className="font-bold text-lg pt-12">{user[userIndex].name}</p>
           <p>{user[userIndex].position}</p>

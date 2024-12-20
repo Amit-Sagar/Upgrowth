@@ -10,7 +10,7 @@ const Company = () => {
             return (
               <img
                 src={item}
-                className=" cursor-pointer hover:scale-110"
+                className=" cursor-pointer hover:scale-110 duration-200"
                 key={index}
                 alt=""
               />
@@ -20,7 +20,7 @@ const Company = () => {
             return (
               <img
                 src={item}
-                className=" cursor-pointer hover:scale-110"
+                className=" cursor-pointer hover:scale-110 duration-200"
                 key={index}
                 alt=""
               />
