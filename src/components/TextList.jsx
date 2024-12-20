@@ -15,7 +15,9 @@ const TextList = () => {
         {textData.map((item, index) => (
           <div
             key={index}
-            className={`flex items-center cursor-pointer space-x-2 ${activeIndex === index ? "text-white font-bold" : "text-gray-300"}`}
+            className={`flex items-center cursor-pointer space-x-2 ${
+              activeIndex === index ? "text-white font-bold" : "text-gray-300"
+            }`}
             onClick={() => setActiveIndex(index)}
           >
             {activeIndex === index && (
@@ -30,8 +32,11 @@ const TextList = () => {
       <div className="text-white w-[40%] text-xl">
         <p>{textData[activeIndex].details}</p>
         <button className="flex justify-center items-center gap-3 font-bold px-10 py-3 mt-5 transition duration-200 border border-black bg-[rgb(42,42,42)] hover:bg-[rgb(67,67,67)]">
-          WORK WITH US 
-          <img src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg" alt="" />
+          WORK WITH US
+          <img
+            src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg"
+            alt=""
+          />
         </button>
       </div>
     </div>

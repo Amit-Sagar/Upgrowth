@@ -16,11 +16,14 @@ const Header = () => {
         className="text-2xl font-extrabold cursor-pointer"
         onClick={() => navigate("/")}
       >
-        <p>UpGrowth</p>
+        <p className=" hover:text-[rgb(91,91,91)] duration-100">UpGrowth</p>
       </div>
       <div className="flex gap-10 text-xs font-bold items-center">
         {options.map((item) => (
-          <p className="cursor-pointer" onClick={() => navigate(item.route)}>
+          <p
+            className="cursor-pointer hover:text-[rgb(242,112,56)] duration-200"
+            onClick={() => navigate(item.route)}
+          >
             {item.label}
           </p>
         ))}

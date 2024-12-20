@@ -1,6 +1,5 @@
 import React from "react";
 import { leanMoreData } from "./data";
-import { FaAnglesRight } from "react-icons/fa6";
 
 const LearnMoreSection = () => {
   return (
@@ -33,14 +32,18 @@ const LearnMoreSection = () => {
               style={{
                 backgroundImage: `url(${item.bgImg})`,
               }}
-              className="w-[300px] h-[300px] relative bg-cover bg-center bg-no-repeat p-6 rounded-lg flex flex-col justify-center items-center bg-[rgb(242,112,56)] text-white text-center"
+              className="w-[320px] h-[300px] relative bg-cover bg-center bg-no-repeat p-6 rounded-lg flex flex-col justify-center items-center bg-[rgb(242,112,56)] text-white text-center"
             >
               <h2 className="text-2xl font-semibold">
                 Do you want to achieve the same numbers?
               </h2>
               <p className="pt-2">It’s easy!</p>
               <button className="flex justify-center items-center gap-3 font-bold px-6 py-2 mt-5 transition duration-200 border border-black bg-[rgb(42,42,42)] hover:bg-[rgb(102,102,102)]">
-                WORK WITH US <FaAnglesRight />
+                WORK WITH US
+                <img
+                  src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/arrows/cta-large.svg"
+                  alt=""
+                />
               </button>
             </div>
           );

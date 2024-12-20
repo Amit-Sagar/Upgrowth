@@ -1,5 +1,4 @@
 import React from "react";
-import { comImg } from "../components/data";
 import Services from "../components/Services";
 import HeroCard from "../components/HeroCard";
 import TextList from "../components/TextList";
@@ -14,14 +13,14 @@ const HomePage = () => {
   return (
     <div className="pt-[120px] flex flex-col justify-center items-center">
       <HeroCard />
-      <CompanyImg/>
-      <LearnMoreSection/>
+      <CompanyImg />
+      <LearnMoreSection />
       <Services />
-      <WeRankSection/>
+      <WeRankSection />
       <TextList />
-      <UserSection/>
-      <Company/>
-      <GrowingSection/>
+      <UserSection />
+      <Company />
+      <GrowingSection />
     </div>
   );
 };

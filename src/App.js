@@ -1,8 +1,6 @@
 import AllRoutes from "./Routes";
 import Layout from "./layout";
-import {
-  BrowserRouter as Router,
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -11,7 +9,6 @@ function App() {
         <AllRoutes />
       </Layout>
     </Router>
-
   );
 }
 
