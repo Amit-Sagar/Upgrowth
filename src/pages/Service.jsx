@@ -22,7 +22,7 @@ const Service = () => {
         <h1 className="text-5xl font-bold px-5">— Our clients love us</h1>
         <Testimonials />
       </div>
-      <GrowingSection/>
+      <GrowingSection btnText="Boost Rankings & Revenue " />
       <InterestedSection/>
     </div>
   )

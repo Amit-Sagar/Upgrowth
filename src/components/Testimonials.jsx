@@ -7,7 +7,7 @@ const Testimonials = () => {
       {testimonials.map((testimonial, index) => (
         <div
           key={index}
-          className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-start w-[30%]"
+          className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-start h-[400px] w-[30%]"
         >
           <img
             src={testimonial.image}
