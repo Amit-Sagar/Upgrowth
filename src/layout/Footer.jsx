@@ -3,7 +3,7 @@ import { footerData } from "../components/data";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 py-10">
+    <footer className="bg-black text-gray-300 pb-10 pt-32">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
         {footerData.map((section, index) => (
           <div key={index}>
@@ -13,7 +13,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {section.links.map((link, linkIndex) => (
                 <li key={linkIndex}>
-                  <a className="hover:text-pink-300 cursor-pointer">{link}</a>
+                  <p className="hover:text-pink-300 cursor-pointer">{link}</p>
                 </li>
               ))}
             </ul>

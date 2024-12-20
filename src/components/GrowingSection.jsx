@@ -2,11 +2,11 @@ import React from "react";
 
 const GrowingSection = () => {
   return (
-    <div className="w-full relative flex justify-center items-center h-[100px] mt-[600px] bg-black">
-      <div className='w-[95%] py-14 rounded-lg absolute bottom-0 bg-[url("https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/hero/bg.jpg")] flex flex-col justify-center items-center'>
+    <div className="w-full relative flex justify-center items-center mt-28 h-[400px]">
+      <div className="w-[80%] py-12 rounded-lg absolute -bottom-20 bg-heroImg flex flex-col justify-center items-center">
         <img
           src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/start-growing/graphic.png"
-          className="pt-10"
+          className="h-[250px] w-[600px] pt-10"
           alt=""
         />
         <p className="text-3xl text-white font-semibold text-center">
