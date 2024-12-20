@@ -8,10 +8,10 @@ const About = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-[120px]">
       <h1 className="text-7xl py-3 pb-10">We help your ads get clics</h1>
-      <OurMission/>
-      <DefiningSection/>
-      <WhatWeDoSection/>
-      <Testimonials/>
+      <OurMission />
+      <DefiningSection />
+      <WhatWeDoSection />
+      <Testimonials />
     </div>
   );
 };
