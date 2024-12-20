@@ -22,7 +22,7 @@ const HeroCard = () => {
     }
   };
   return (
-    <div className='w-[95%] flex justify-center items-center gap-28 h-[600px] bg-[url("https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2023/home/hero/bg.jpg")] bg-cover bg-center rounded-lg'>
+    <div className="w-[95%] flex justify-center items-center gap-28 h-[600px] bg-heroImg bg-cover bg-center rounded-lg">
       <div className="w-[40%] text-white">
         <h1 className="text-5xl font-bold leading-tight tracking-wide">
           <span className="bg-black px-1">Transforming Your Marketing</span>{" "}
@@ -52,7 +52,7 @@ const HeroCard = () => {
               alt=""
             />
           </span>
-          <img className=" rounded-[50%]" src={user[userIndex].img} />
+          <img className=" rounded-[50%]" src={user[userIndex].img} alt="/" />
           <span onClick={NextUser} className=" cursor-pointer">
             <img
               className="w-5"
